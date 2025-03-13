@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Bank Management System</h1>
+        <div class="form-container">
+            <h2>Add Customer</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="number" id="age" placeholder="Age">
+            <input type="text" id="gender" placeholder="Gender">
+            <input type="text" id="address" placeholder="Address">
+            <input type="text" id="phone" placeholder="Phone">
+            <input type="text" id="adhaar_no" placeholder="Adhaar Number">
+            <input type="password" id="pin" placeholder="PIN">
+            <input type="number" id="balance" placeholder="Initial Balance">
+            <button onclick="addCustomer()">Add Customer</button>
+        </div>
+        
+        <div class="form-container">
+            <h2>Deposit</h2>
+            <input type="number" id="deposit_account_id" placeholder="Account ID">
+            <input type="number" id="deposit_amount" placeholder="Amount">
+            <button onclick="deposit()">Deposit</button>
+        </div>
+        
+        <div class="form-container">
+            <h2>Withdraw</h2>
+            <input type="number" id="withdraw_account_id" placeholder="Account ID">
+            <input type="number" id="withdraw_amount" placeholder="Amount">
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+    </div>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
+
